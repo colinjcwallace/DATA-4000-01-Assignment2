@@ -11,6 +11,7 @@ def main():
     else:
         risk = "high"
     
+    # Output the loan risk category
     print(f"Loan Risk Category: {risk}")
 
 main()
