@@ -5,11 +5,11 @@ def main():
 
     #Conditional statements to determine loan risk category
     if credit_score >= 720 and income >= 60000:
-        risk = "low"
+        risk = "low risk"
     elif credit_score >= 650 and income >= 40000:
-        risk = "medium"
+        risk = "medium risk"
     else:
-        risk = "high"
+        risk = "high risk"
     
     # Output the loan risk category
     print(f"Loan Risk Category: {risk}")
