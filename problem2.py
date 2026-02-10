@@ -1,7 +1,9 @@
 def main():
+    #inputs for annual salary and performance score
     annual_salary = float(input("What is your annual salary? "))
     score = int(input("What is your performance score? "))
 
+    #Conditional statements to determine bonus percentage
     if score >= 90:
         bonus = 0.2
     elif score >= 80:
