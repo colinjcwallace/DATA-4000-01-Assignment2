@@ -6,3 +6,13 @@
 
 -----------------------------------------------------
 ## Problem 2
+- Made inputs for annual salary and performance score
+- Created conditional statements to determine bonus percentage
+- Made a calculator to determine bonus amount
+- printed the output for the bonus amount and bonus percentage
+
+---------------------------------------------------
+## Problem 3
+- Made inputs for credit score and income
+- Created conditional statements to determine loan risk category
+- Printed the output for the loan risk category
