@@ -13,8 +13,10 @@ def main():
     else:
         bonus = 0
 
-    
+    # Calculate bonus amount and output results
     bonus_amount = annual_salary * bonus
+
+    # Output the bonus amount and performance bonus percentage
     print(f"Your bonus amount is: ${bonus_amount:.2f}")
     print(f"Your performance bonus: {bonus * 100:.0f}%")
 

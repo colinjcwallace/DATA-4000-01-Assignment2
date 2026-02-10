@@ -3,7 +3,8 @@ def calculate_discount():
     amount = float(input("Purchase Amount: "))
     is_member = input("Are you a member? (yes/no): ").strip().lower()
 
-    # Conditional statements to determine discount based on membership status and purchase amount
+    # Conditional statements to determine discount 
+    # based on membership status and purchase amount
     if is_member == 'yes':
         if amount >= 100: 
             discount = 0.15
